@@ -1,0 +1,20 @@
+Borah Chong 
+Lab 9 Report
+11/24/15
+
+The program fractals.c is meant to create 7 different types of fractals. From the user's 
+perspective, if the user presses a number key between 1 and 7, a different fractal will appear 
+for each key. When the user presses the 'q' key, the program will exit. From the programmer's
+perspective, this program contains 7 different function to create the 7 different fractals, 
+and it also contains a function to draw squares and a function to draw triangles. It then 
+uses a switch statement to switch between the different fractals when the user presses a key. 
+Each fractal function uses recursion to create its image. I evaluated the program's correctness
+by making sure that each fractal appeared correctly within the window. This does produce the 
+correct results because when compared to the examples we were given, the fractals created in 
+my program create similar results. There are not any cases where this program gives incorrect
+results. 
+
+The program gallery uses one of the fractals from above, and displays multiple different 
+versions of that fractal. The one used in my gallery is the tree fractal. The angle between the
+branches and the height of the tree are changes, and the position of the tree changes as well. 
+It then displays 16 different trees, all of which are different colors. 
